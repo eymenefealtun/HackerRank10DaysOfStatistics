@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F20EDDAE-E5AC-4AA2-95F8-05E66B6E07D9}</ProjectGuid>
+    <ProjectGuid>{2857BA34-C2EA-405E-81F2-3416F6F05708}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Day_04</RootNamespace>
-    <AssemblyName>Day-04</AssemblyName>
+    <RootNamespace>Trial</RootNamespace>
+    <AssemblyName>Trial</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,11 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="CardsOfTheSameSuit.txt" />
-    <Content Include="DrawingMarbles.txt" />
-    <Content Include="ConditionalProbability.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
