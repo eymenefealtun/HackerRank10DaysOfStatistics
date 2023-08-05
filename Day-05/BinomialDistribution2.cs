@@ -4,7 +4,7 @@ namespace Day_05
 {
     internal class BinomialDistribution2
     {
-        static void Execute()
+        public static void Execute()
         {
             /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution */
 
