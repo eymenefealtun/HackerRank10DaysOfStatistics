@@ -7,7 +7,8 @@ namespace Day_05
         {
             //BinomialDistribution1.Execute();
             //BinomialDistribution2.Execute();
-            GeometricDistribution1.Execute();
+            //GeometricDistribution1.Execute();
+            GeometricDistribution2.Execute();
         }
     }
 }
