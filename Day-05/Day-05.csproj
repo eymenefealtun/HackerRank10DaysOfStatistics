@@ -47,6 +47,7 @@
     <Compile Include="BinomialDistribution2.cs" />
     <Compile Include="Executer.cs" />
     <Compile Include="GeometricDistribution1.cs" />
+    <Compile Include="GeometricDistribution2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
