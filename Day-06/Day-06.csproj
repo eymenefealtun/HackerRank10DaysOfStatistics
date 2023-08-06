@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="PoissonDistribution1.cs" />
     <Compile Include="Executer.cs" />
+    <Compile Include="PoissonDistribution2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
