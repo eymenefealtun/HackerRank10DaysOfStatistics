@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NormalDistribution1.cs" />
     <Compile Include="PoissonDistribution1.cs" />
     <Compile Include="Executer.cs" />
     <Compile Include="PoissonDistribution2.cs" />
