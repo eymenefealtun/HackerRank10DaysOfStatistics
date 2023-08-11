@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Executer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TheCentralLimitTheorem2.cs" />
     <Compile Include="TheCentralLimitTheorem1.cs" />
   </ItemGroup>
   <ItemGroup>

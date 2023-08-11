@@ -5,7 +5,8 @@ namespace Day_07
     {
         static void Main(string[] args)
         {
-            TheCentralLimitTheorem1.Execute();
+            //TheCentralLimitTheorem1.Execute();
+            TheCentralLimitTheorem2.Execute();
         }
     }
 }

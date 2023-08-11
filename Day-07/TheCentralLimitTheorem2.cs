@@ -1,24 +1,23 @@
 ﻿using System;
 
-    internal class TheCentralLimitTheorem1
+    internal class TheCentralLimitTheorem2
     {
         internal static void Execute()
         {
             /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution */
             double e = 2.71828;
 
-            int maxWeightCanElevatorHandle = 9800;
-            int numberOfBoxesInTheCargo = 49;
-            int meanWeightOfCargoBoxes = 205;
-            int standardDeviation = 15;
-
+            int allTickets = 250;
+            int numberOfStudentsWhoWantsToBuyLastMinuteTickets = 100;
+            double mean = 2.4;
+            double standardDeviation = 2.0;
 
             // u1--> n x u
             // q1 --> Root(n) x q
-            double u1 = numberOfBoxesInTheCargo * meanWeightOfCargoBoxes;
-            double q1 = Math.Sqrt(numberOfBoxesInTheCargo) * standardDeviation;
+            double u1 = numberOfStudentsWhoWantsToBuyLastMinuteTickets * mean;
+            double q1 = Math.Sqrt(numberOfStudentsWhoWantsToBuyLastMinuteTickets) * standardDeviation;
 
-            double result = CumulativeDistribution(u1, q1, maxWeightCanElevatorHandle); // Probability that the elevator can successfully transport all 49 boxes.
+            double result = CumulativeDistribution(u1, q1, allTickets);
 
             Console.WriteLine(Math.Round(result, 4));
             Console.ReadLine();
